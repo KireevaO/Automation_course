@@ -1,0 +1,44 @@
+const fs = require('fs-extra');
+console.log('Поехали')
+const folderName = 'MyWork1'
+const fileName = 'Test1.txt'
+const path = `${folderName}/${fileName}`
+ 
+// fs.ensureDirSync(folderName)
+
+// fs.ensureFileSync(path)
+
+const folderName2 = 'MyWork2'
+//fs.ensureDirSync(folderName2)
+const path2 = `${folderName2}/${fileName}`
+
+//fs.moveSync(path, path2, { overwrite: true })
+
+const folderName3 = 'MyWork3'
+//fs.ensureDirSync(folderName3)
+
+const pathTo = `${folderName3}/${fileName}`
+const pathFrom = `${folderName2}/${fileName}`
+
+//fs.copySync(pathFrom, pathTo)
+
+//fs.copySync(folderName2, folderName3)
+
+//fs.removeSync(path2)
+//fs.removeSync(pathTo)
+console.log('Начинаю цикл')
+
+const folderList = [folderName, folderName2, folderName3]
+folderList.forEach(element => {
+  fs.removeSync(element);
+});
+
+сonsole.log('Цикл окончен')
+
+
+// fs.removeSync(path2)
+// fs.removeSync(path2)
+// fs.removeSync(path2)
+
+
+console.log('Красава')
