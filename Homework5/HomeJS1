@@ -1,0 +1,64 @@
+let string = " Are you dog? ";
+let boolean0 = false;
+let result = string + boolean0;
+console.log(result);
+
+let string1 = "The number is: ";
+let number1 = 42;
+let result1 = string1 + number1;
+console.log(result1);
+
+let number2 = "1";
+let boolean1 = false;
+let result2 = number2 + boolean1;
+console.log(result2);
+
+let string2 = " Are you dog? ";
+let boolean2 = false;
+let result3 = string2 * boolean2;
+console.log(result3);
+
+let string3 = "The number is: ";
+let number3 = 42;
+let result4 = string3 * number3;
+console.log(result4);
+
+let number4 = "1";
+let boolean3 = false;
+let result5 = number4 * boolean3;
+console.log(result5);
+
+let string4 = " Are you dog? ";
+let boolean4 = false;
+let result6 = string3 / boolean4;
+console.log(result6);
+
+let string5 = "The number is: ";
+let number5 = 6;
+let result7 = string5 / number5;
+console.log(result7);
+
+let number6 = "1";
+let boolean5 = false;
+let result8 = number5 / boolean5;
+console.log(result8);
+
+const number7 = 55
+const notNumber = number7.toString();
+console.log(notNumber)
+console.log(typeof notNumber)
+
+const string6 = "45ghbdtnvbh"
+const notString = parseInt(string6);
+console.log(notString)
+console.log(typeof notString)
+
+const a=0
+const boolean6 = Boolean(a);
+console.log(boolean6)
+
+
+
+
+
+
