@@ -53,8 +53,8 @@ const notString = parseInt(string6);
 console.log(notString)
 console.log(typeof notString)
 
-const a=0
-const boolean6 = Boolean(a);
+const b=0
+const boolean6 = Boolean(b);
 console.log(boolean6)
 
 
